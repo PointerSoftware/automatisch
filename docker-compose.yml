@@ -37,6 +37,8 @@ services:
     depends_on:
       - main
     environment:
+      - WEB_APP_URL=https://flowbuilder.laila.pk
+      - WEBHOOK_URL=https://flowbuilder.laila.pk
       - APP_ENV=production
       - REDIS_HOST=redis
       - POSTGRES_HOST=postgres
