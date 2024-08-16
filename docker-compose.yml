@@ -16,6 +16,8 @@ services:
       - HOST=localhost
       - PROTOCOL=http
       - PORT=3000
+      - WEB_APP_URL=https://flowbuilder.laila.pk
+      - WEBHOOK_URL=https://flowbuilder.laila.pk
       - APP_ENV=production
       - REDIS_HOST=redis
       - POSTGRES_HOST=postgres
